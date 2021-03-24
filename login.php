@@ -20,6 +20,7 @@ VO Hong Tu -->
     <label for="exampleInputEmail1" name="lbUserName">NAME</label>
     <input type="text" class="form-control"placeholder="Enter username">
   </div>
+  <button type="submit" id="btnLogin" name="btnLogin" class="btn btn-primary">Login</button>
 </form>
 </body>
 </html>
