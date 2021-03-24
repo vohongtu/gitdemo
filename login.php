@@ -18,12 +18,30 @@ VO Hong Tu -->
 <form method="POST">
   <div class="form-group">
     <label for="exampleInputEmail1" name="lbUserName">NAME</label>
-    <input type="text" class="form-control"placeholder="Enter username">
+    <input type="text" name="txtUserName"class="form-control"placeholder="Enter username">
   </div>
   <div class="form-group">
     <label for="exampleInputPassword1">PASSWORD</label>
-    <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+    <input type="pass" class="form-control"  name="txtPassword"  placeholder="Enter password">
   </div>
+  <?php
+  if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['btnLogin'])) {
+    // collect value of input field
+    
+    $name = $_POST['txtUserName'];
+    $pass = $_POST['txtPassword'];
+    if($name == "admin" && $pass == "admin"){
+      echo "LOGIN SUCCESSFULL";
+    }
+    else{
+      echo "LOGIN ERROR";
+    }
+   
+}
+?> </br>
+  <button type="submit" id="btnLogin" name="btnLogin" class="btn btn-primary">Login</button>
+  
 </form>
+
 </body>
 </html>
