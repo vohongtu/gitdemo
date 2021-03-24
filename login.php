@@ -20,10 +20,7 @@ VO Hong Tu -->
     <label for="exampleInputEmail1" name="lbUserName">NAME</label>
     <input type="text" class="form-control"placeholder="Enter username">
   </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">PASSWORD</label>
-    <input type="password" class="form-control" id="password" name="password" placeholder="Password">
-  </div>
+
 </form>
 </body>
 </html>
