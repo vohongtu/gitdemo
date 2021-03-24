@@ -36,7 +36,6 @@ VO Hong Tu -->
     else{
       echo "LOGIN ERROR";
     }
-   
 }
 ?> </br>
   <button type="submit" id="btnLogin" name="btnLogin" class="btn btn-primary">Login</button>
