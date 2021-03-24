@@ -34,10 +34,9 @@ VO Hong Tu -->
       echo "LOGIN SUCCESSFULL";
     }
     else{
-      echo "LOGIN ERROR";
+      echo "LOGIN ERROR ";
     }
-   
-}
+  }
 ?> </br>
   <button type="submit" id="btnLogin" name="btnLogin" class="btn btn-primary">Login</button>
   
