@@ -31,7 +31,7 @@ VO Hong Tu -->
     $name = $_POST['txtUserName'];
     $pass = $_POST['txtPassword'];
     if($name == "admin" && $pass == "admin"){
-      echo "LOGIN SUCCESSFULL";
+      header("Location: index.php");
     }
     else{
       echo "LOGIN ERROR ";
