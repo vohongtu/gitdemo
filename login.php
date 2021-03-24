@@ -34,7 +34,7 @@ VO Hong Tu -->
       header("Location: index.php");
     }
     else{
-      echo "LOGIN ERROR ";
+        echo "LOGIN ERROR ";
     }
   }
 ?> </br>
